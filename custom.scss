@@ -1,0 +1,44 @@
+/*-- scss:defaults --*/
+$body-bg: #ffffff !default;
+$body-color: #252525 !default;
+$primary: #252525 !default;
+$secondary: #686868 !default;
+$link-color: #303030 !default;
+$border-color: #e6e6e6 !default;
+$font-family-sans-serif: "Roboto", "Helvetica Neue", Arial, sans-serif !default;
+$headings-font-weight: 400 !default;
+$navbar-bg: #ffffff !default;
+$navbar-fg: #252525 !default;
+$navbar-hl: #686868 !default;
+$focus-ring-outer-color: #252525 !default;
+
+/*-- scss:rules --*/
+.navbar {
+  border-bottom: 1px solid $border-color;
+  box-shadow: none !important;
+}
+
+.navbar-brand {
+  font-weight: 400;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link {
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+main h1,
+main h2,
+main h3 {
+  font-weight: 400;
+  letter-spacing: 0.025em;
+}
+
+.btn {
+  border-radius: 999px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

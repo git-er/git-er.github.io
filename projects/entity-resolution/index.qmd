@@ -1,0 +1,24 @@
+---
+pagetitle: "Entity resolution and fuzzy matching | RobW"
+---
+
+::: {.page-copy}
+
+<p class="eyebrow">PROJECT 02 / ENTITY RESOLUTION</p>
+
+# Entity resolution and fuzzy matching
+
+<div class="prototype-callout">Project stub. This page will become a public-data or synthetic example.</div>
+
+## Planned question
+
+How can records that refer to the same entity be matched while making uncertainty and false match risk visible?
+
+## Planned contents
+
+- Explain the synthetic or public data and the record linkage problem.
+- Compare candidate generation, similarity features, and a matching threshold.
+- Evaluate precision and recall using labeled examples or a transparent review sample.
+- Describe limitations, privacy considerations, and human review steps.
+
+:::

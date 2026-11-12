@@ -1,0 +1,33 @@
+---
+title: "[Project title]"
+subtitle: "[One-sentence summary of the question or decision]"
+---
+
+> Template only. Replace bracketed prompts with supported facts before using this as a portfolio page.
+
+## At a glance
+
+- **Problem:** [What decision, process, or question motivated the work?]
+- **Data:** [Source, scope, date range, and relevant limitations]
+- **Approach:** [Methods, tools, and validation]
+- **Result:** [What the analysis supports; avoid unverified impact claims]
+
+## Context and question
+
+[Situation - Describe the decision or question.]
+
+## Data and method
+
+[Task - Explain the data source, preparation, analytical method, assumptions, and checks.]
+
+## Findings
+
+[Interpretation - Show the most useful result with an accessible figure or table and a concise interpretation.]
+
+## Limitations and next steps
+
+[Action/Result - State what the analysis cannot establish and what additional evidence would improve it.]
+
+## Tools and materials
+
+[List tools actually used. Add source-code, screenshot, or live demo links only when they are ready and public.]

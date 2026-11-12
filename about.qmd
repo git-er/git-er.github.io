@@ -1,0 +1,21 @@
+---
+pagetitle: "About | RobW"
+---
+
+::: {.page-copy}
+
+<p class="eyebrow">ABOUT / ROBW</p>
+
+# Analytics leadership with a practical point of view
+
+<div class="prototype-callout">Placeholder page. Replace this with a concise, factual introduction before publishing.</div>
+
+## What I work on
+
+Describe the analytics problems, teams, and decisions you have experience leading. Keep titles, scope, and outcomes tied to verifiable experience.
+
+## How I work
+
+Add a short description of your approach to building analytics capabilities, partnering with stakeholders, and communicating evidence.
+
+:::

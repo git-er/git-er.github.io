@@ -1,0 +1,24 @@
+---
+pagetitle: "Social network analysis | RobW"
+---
+
+::: {.page-copy}
+
+<p class="eyebrow">PROJECT 03 / NETWORK ANALYSIS</p>
+
+# Social network analysis
+
+<div class="prototype-callout">Project stub. This page will become a public data or synthetic example.</div>
+
+## Planned question
+
+What can a network's structure reveal about groups, reach, brokerage, or resilience, and which claims are supported by the data?
+
+## Planned contents
+
+- Define the nodes, ties, direction, weighting, and observation window.
+- Show a readable network visualization and a small set of justified measures.
+- Explain sensitivity to missing ties, sampling, and network boundaries.
+- Separate descriptive structure from causal or individual-level conclusions.
+
+:::

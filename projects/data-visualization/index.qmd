@@ -1,0 +1,68 @@
+---
+pagetitle: "Data visualization and storytelling | RobW"
+---
+
+::: {.page-copy}
+
+<p class="eyebrow">PROJECT 01 / DATA VISUALIZATION</p>
+
+# A first look at ozone and temperature
+
+<p class="project-intro">A short exploratory story using R's built-in dataset to be replaced or expanded into a more thoughtful public data example.</p>
+
+::: {.project-facts}
+<p><strong>Data</strong> New York air quality observations, May-September 1973</p>
+<p><strong>Question</strong> How do observed ozone levels vary with temperature?</p>
+<p><strong>Tools</strong> R / base `datasets` package</p>
+:::
+
+## The question
+
+The built-in dataset records daily ozone, solar radiation, wind, and temperature measurements over five months.
+
+## The pattern
+
+```{r}
+#| label: fig-ozone-temperature
+#| fig-cap: "Observed ozone measurements tend to be higher on warmer days in this sample. The fitted line is descriptive, not causal."
+#| fig-alt: "Scatterplot of ozone concentration against temperature, with points colored by month and a positive descriptive linear trend."
+#| fig-width: 7
+#| fig-height: 4.5
+
+air_quality <- datasets::airquality
+observed <- air_quality[complete.cases(air_quality[, c("Ozone", "Temp")]), ]
+month_colors <- c("#147565", "#d45c43", "#91a833", "#3e6e9a", "#b67e28")
+observed$Month <- factor(observed$Month, levels = 5:9, labels = month.abb[5:9])
+
+ggplot2::ggplot(observed, ggplot2::aes(x = Temp, y = Ozone, fill = Month)) +
+  ggplot2::geom_point(shape = 21, color = "white", size = 2.8) +
+  ggplot2::geom_smooth(
+    ggplot2::aes(x = Temp, y = Ozone, group = 1), inherit.aes = FALSE,
+    method = "lm", formula = y ~ x,
+    se = FALSE, color = "#d45c43", linewidth = 1
+  ) +
+  ggplot2::scale_fill_manual(
+    values = stats::setNames(month_colors, month.abb[5:9]),
+    name = NULL
+  ) +
+  ggplot2::labs(x = "Temperature (F)", y = "Ozone (ppb)") +
+  ggplot2::theme_classic() +
+  ggplot2::theme(
+    axis.text = ggplot2::element_text(color = "#53645f"),
+    axis.title = ggplot2::element_text(color = "#293a35"),
+    legend.position = c(0.08, 0.96),
+    legend.justification = c(0, 1),
+    legend.background = ggplot2::element_blank()
+  ) +
+  ggplot2::guides(fill = ggplot2::guide_legend(ncol = 2))
+```
+
+The points suggest a positive association in these observations.
+
+## Interpretation and limitations
+
+Per documentation: This is a small, single location sample from 1973.
+
+<div class="prototype-callout">Exploratory layout prototype only. No client engagement or business impact is represented.</div>
+
+:::

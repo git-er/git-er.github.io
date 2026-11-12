@@ -1,0 +1,48 @@
+---
+pagetitle: "RobW | Analytics Portfolio"
+---
+
+::: {.hero-grid}
+::: {.hero-copy}
+
+<p class="eyebrow">ANALYTICS LEADERSHIP / R / PYTHON</p>
+
+# Make the numbers<br><span>mean something.</span>
+
+<p class="hero-deck">A portfolio prototype for analytics leadership and consulting work. Exploring how rigorous analysis, clear visuals, and sound decisions fit together.</p>
+
+<p class="role-line">DIRECTOR / SENIOR MANAGER OF ANALYTICS <span>+ CONSULTING</span></p>
+
+:::
+
+::: {.hero-visual}
+<p class="eyebrow">ANALYTICS / DECISION SUPPORT</p>
+<p class="field-note-title">From messy inputs<br>to a clearer next move.</p>
+<p class="visual-caption">Selected work in analytical problem-solving, optimization, and data storytelling.</p>
+:::
+:::
+
+::: {.focus-band}
+<p class="eyebrow">AREAS OF PRACTICE</p>
+
+<div class="focus-grid">
+  <div><span>01</span> Social network analysis</div>
+  <div><span>02</span> Entity resolution &amp; fuzzy matching</div>
+  <div><span>03</span> Constrained optimization</div>
+  <div><span>04</span> Data visualization &amp; storytelling</div>
+</div>
+:::
+
+::: {.home-projects}
+<p class="eyebrow">SELECTED PROJECTS / PROTOTYPES</p>
+
+## Explore the work
+
+- [Data visualization &amp; storytelling](projects/data-visualization/index.qmd) — A short exploratory story using R's built-in `airquality` dataset; intended to refine the case-study format.
+- [Entity resolution &amp; fuzzy matching](projects/entity-resolution/index.qmd) — Project stub.
+- [Social network analysis](projects/network-analysis/index.qmd) — Project stub.
+- [Constrained optimization](projects/constrained-optimization/index.qmd) — Project stub.
+
+:::
+
+<p class="prototype-note">The airquality page is a layout prototype, not a client engagement or a claim of business impact. Project stubs will be replaced with public-data or synthetic examples.</p>

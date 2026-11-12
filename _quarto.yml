@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "RobW | Analytics"
+  site-url: "https://git-er.github.io/"
+  description: "Analytics portfolio prototype by RobW."
+  navbar:
+    title: "RobW"
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Projects
+        menu:
+          - text: Data visualization
+            href: projects/data-visualization/index.qmd
+          - text: Entity resolution
+            href: projects/entity-resolution/index.qmd
+          - text: Network analysis
+            href: projects/network-analysis/index.qmd
+          - text: Constrained optimization
+            href: projects/constrained-optimization/index.qmd
+      - href: about.qmd
+        text: About
+      - href: resume.qmd
+        text: Résumé
+
+format:
+  html:
+    theme:
+      - lux
+      - custom.scss
+    css: styles.css
+    toc: false
+    code-fold: true
+    code-tools: false
+    smooth-scroll: true

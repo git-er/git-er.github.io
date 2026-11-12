@@ -1,0 +1,15 @@
+---
+pagetitle: "Résumé | RobW"
+---
+
+::: {.page-copy}
+
+<p class="eyebrow">EXPERIENCE / QUALIFICATIONS</p>
+
+# Résumé
+
+<div class="prototype-callout">The downloadable résumé will be added here when it is ready. No résumé file is included yet.</div>
+
+Use this page for a short career summary and a link to the public PDF. Review the document for contact details or other information before placing it in the public repository.
+
+:::

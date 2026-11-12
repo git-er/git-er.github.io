@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Résumé",
+    "section": "",
+    "text": "EXPERIENCE / QUALIFICATIONS\n\n\nRésumé\n\nThe downloadable résumé will be added here when it is ready. No résumé file is included yet.\n\nUse this page for a short career summary and a link to the public PDF. Review the document for contact details or other information before placing it in the public repository."
+  },
+  {
+    "objectID": "projects/entity-resolution/index.html",
+    "href": "projects/entity-resolution/index.html",
+    "title": "Entity resolution and fuzzy matching",
+    "section": "",
+    "text": "PROJECT 02 / ENTITY RESOLUTION\n\n\n\n\nProject stub. This page will become a public-data or synthetic example; it does not describe client work.\n\n\n\nHow can records that refer to the same entity be matched while making uncertainty and false-match risk visible?\n\n\n\n\nExplain the synthetic or public data and the record-linkage problem.\nCompare candidate generation, similarity features, and a matching threshold.\nEvaluate precision and recall using labeled examples or a transparent review sample.\nDescribe limitations, privacy considerations, and human-review steps."
+  },
+  {
+    "objectID": "projects/entity-resolution/index.html#planned-question",
+    "href": "projects/entity-resolution/index.html#planned-question",
+    "title": "Entity resolution and fuzzy matching",
+    "section": "",
+    "text": "How can records that refer to the same entity be matched while making uncertainty and false-match risk visible?"
+  },
+  {
+    "objectID": "projects/entity-resolution/index.html#planned-contents",
+    "href": "projects/entity-resolution/index.html#planned-contents",
+    "title": "Entity resolution and fuzzy matching",
+    "section": "",
+    "text": "Explain the synthetic or public data and the record-linkage problem.\nCompare candidate generation, similarity features, and a matching threshold.\nEvaluate precision and recall using labeled examples or a transparent review sample.\nDescribe limitations, privacy considerations, and human-review steps."
+  },
+  {
+    "objectID": "projects/constrained-optimization/index.html",
+    "href": "projects/constrained-optimization/index.html",
+    "title": "Constrained optimization",
+    "section": "",
+    "text": "PROJECT 04 / OPTIMIZATION\n\n\n\n\nProject stub. This page will become a public-data or synthetic example; it does not describe client work.\n\n\n\nHow does an optimal allocation change when objectives, capacity limits, and business constraints are made explicit?\n\n\n\n\nDefine decision variables, objective, units, and constraints.\nCompare a baseline with a feasible optimized allocation.\nCheck feasibility, sensitivity, and tradeoffs rather than presenting one solution as universally best.\nExplain assumptions and what operational validation would still be needed."
+  },
+  {
+    "objectID": "projects/constrained-optimization/index.html#planned-question",
+    "href": "projects/constrained-optimization/index.html#planned-question",
+    "title": "Constrained optimization",
+    "section": "",
+    "text": "How does an optimal allocation change when objectives, capacity limits, and business constraints are made explicit?"
+  },
+  {
+    "objectID": "projects/constrained-optimization/index.html#planned-contents",
+    "href": "projects/constrained-optimization/index.html#planned-contents",
+    "title": "Constrained optimization",
+    "section": "",
+    "text": "Define decision variables, objective, units, and constraints.\nCompare a baseline with a feasible optimized allocation.\nCheck feasibility, sensitivity, and tradeoffs rather than presenting one solution as universally best.\nExplain assumptions and what operational validation would still be needed."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Analytics leadership with a practical point of view",
+    "section": "",
+    "text": "ABOUT / ROBW\n\n\n\n\nPlaceholder page. Replace this with a concise, factual introduction before publishing.\n\n\n\nDescribe the analytics problems, teams, and decisions you have experience leading. Keep titles, scope, and outcomes tied to verifiable experience.\n\n\n\nAdd a short description of your approach to building analytics capabilities, partnering with stakeholders, and communicating evidence."
+  },
+  {
+    "objectID": "about.html#what-i-work-on",
+    "href": "about.html#what-i-work-on",
+    "title": "Analytics leadership with a practical point of view",
+    "section": "",
+    "text": "Describe the analytics problems, teams, and decisions you have experience leading. Keep titles, scope, and outcomes tied to verifiable experience."
+  },
+  {
+    "objectID": "about.html#how-i-work",
+    "href": "about.html#how-i-work",
+    "title": "Analytics leadership with a practical point of view",
+    "section": "",
+    "text": "Add a short description of your approach to building analytics capabilities, partnering with stakeholders, and communicating evidence."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Make the numbersmean something.",
+    "section": "",
+    "text": "ANALYTICS LEADERSHIP / R / PYTHON\n\n\n\n\nA portfolio prototype for analytics leadership and consulting work. Exploring how rigorous analysis, clear visuals, and sound decisions fit together.\n\n\nDIRECTOR / SENIOR MANAGER OF ANALYTICS + CONSULTING\n\n\n\n\n\nANALYTICS / DECISION SUPPORT\n\n\nFrom messy inputsto a clearer next move.\n\n\nSelected work in analytical problem-solving, optimization, and data storytelling.\nThe airquality page is a layout prototype, not a client engagement or a claim of business impact. Project stubs will be replaced with public-data or synthetic examples."
+  },
+  {
+    "objectID": "index.html#explore-the-work",
+    "href": "index.html#explore-the-work",
+    "title": "Make the numbersmean something.",
+    "section": "Explore the work",
+    "text": "Explore the work\n\nData visualization & storytelling — A short exploratory story using R’s built-in airquality dataset; intended to refine the case-study format.\nEntity resolution & fuzzy matching — Project stub.\nSocial network analysis — Project stub.\nConstrained optimization — Project stub."
+  },
+  {
+    "objectID": "projects/data-visualization/index.html",
+    "href": "projects/data-visualization/index.html",
+    "title": "A first look at ozone and temperature",
+    "section": "",
+    "text": "PROJECT 01 / DATA VISUALIZATION\n\n\n\n\nA short exploratory story using R’s built-in dataset to be replaced or expanded into a more thoughtful public data example.\n\n\n\nData New York air quality observations, May-September 1973\n\n\nQuestion How do observed ozone levels vary with temperature?\n\n\nTools R / base datasets package\n\n\n\n\nThe built-in dataset records daily ozone, solar radiation, wind, and temperature measurements over five months. Here, we look at whether higher recorded temperatures tend to coincide with higher recorded ozone levels.\n\n\n\n\n\nCode\nair_quality &lt;- datasets::airquality\nobserved &lt;- air_quality[complete.cases(air_quality[, c(\"Ozone\", \"Temp\")]), ]\nmonth_colors &lt;- c(\"#147565\", \"#d45c43\", \"#91a833\", \"#3e6e9a\", \"#b67e28\")\nobserved$Month &lt;- factor(observed$Month, levels = 5:9, labels = month.abb[5:9])\n\nggplot2::ggplot(observed, ggplot2::aes(x = Temp, y = Ozone, fill = Month)) +\n  ggplot2::geom_point(shape = 21, color = \"white\", size = 2.8) +\n  ggplot2::geom_smooth(\n    ggplot2::aes(x = Temp, y = Ozone, group = 1), inherit.aes = FALSE,\n    method = \"lm\", formula = y ~ x,\n    se = FALSE, color = \"#d45c43\", linewidth = 1\n  ) +\n  ggplot2::scale_fill_manual(\n    values = stats::setNames(month_colors, month.abb[5:9]),\n    name = NULL\n  ) +\n  ggplot2::labs(x = \"Temperature (F)\", y = \"Ozone (ppb)\") +\n  ggplot2::theme_classic() +\n  ggplot2::theme(\n    axis.text = ggplot2::element_text(color = \"#53645f\"),\n    axis.title = ggplot2::element_text(color = \"#293a35\"),\n    legend.position = c(0.08, 0.96),\n    legend.justification = c(0, 1),\n    legend.background = ggplot2::element_blank()\n  ) +\n  ggplot2::guides(fill = ggplot2::guide_legend(ncol = 2))\n\n\n\n\n\n\n\n\nFigure 1: Observed ozone measurements tend to be higher on warmer days in this sample. The fitted line is descriptive, not causal.\n\n\n\n\n\nThe points suggest a positive association in these observations.\n\n\n\nThis is a small, single-location sample from 1973, spanning only May through September. Ozone values are missing on many days, and other factors such as solar radiation and wind also vary. This plot does not establish that temperature alone explains ozone changes or support a current air-quality conclusion.\n\nExploratory layout prototype only. No client engagement or business impact is represented."
+  },
+  {
+    "objectID": "projects/data-visualization/index.html#the-question",
+    "href": "projects/data-visualization/index.html#the-question",
+    "title": "A first look at ozone and temperature",
+    "section": "",
+    "text": "The built-in dataset records daily ozone, solar radiation, wind, and temperature measurements over five months. Here, we look at whether higher recorded temperatures tend to coincide with higher recorded ozone levels."
+  },
+  {
+    "objectID": "projects/data-visualization/index.html#the-pattern",
+    "href": "projects/data-visualization/index.html#the-pattern",
+    "title": "A first look at ozone and temperature",
+    "section": "",
+    "text": "Code\nair_quality &lt;- datasets::airquality\nobserved &lt;- air_quality[complete.cases(air_quality[, c(\"Ozone\", \"Temp\")]), ]\nmonth_colors &lt;- c(\"#147565\", \"#d45c43\", \"#91a833\", \"#3e6e9a\", \"#b67e28\")\nobserved$Month &lt;- factor(observed$Month, levels = 5:9, labels = month.abb[5:9])\n\nggplot2::ggplot(observed, ggplot2::aes(x = Temp, y = Ozone, fill = Month)) +\n  ggplot2::geom_point(shape = 21, color = \"white\", size = 2.8) +\n  ggplot2::geom_smooth(\n    ggplot2::aes(x = Temp, y = Ozone, group = 1), inherit.aes = FALSE,\n    method = \"lm\", formula = y ~ x,\n    se = FALSE, color = \"#d45c43\", linewidth = 1\n  ) +\n  ggplot2::scale_fill_manual(\n    values = stats::setNames(month_colors, month.abb[5:9]),\n    name = NULL\n  ) +\n  ggplot2::labs(x = \"Temperature (F)\", y = \"Ozone (ppb)\") +\n  ggplot2::theme_classic() +\n  ggplot2::theme(\n    axis.text = ggplot2::element_text(color = \"#53645f\"),\n    axis.title = ggplot2::element_text(color = \"#293a35\"),\n    legend.position = c(0.08, 0.96),\n    legend.justification = c(0, 1),\n    legend.background = ggplot2::element_blank()\n  ) +\n  ggplot2::guides(fill = ggplot2::guide_legend(ncol = 2))\n\n\n\n\n\n\n\n\nFigure 1: Observed ozone measurements tend to be higher on warmer days in this sample. The fitted line is descriptive, not causal.\n\n\n\n\n\nThe points suggest a positive association in these observations."
+  },
+  {
+    "objectID": "projects/data-visualization/index.html#interpretation-and-limitations",
+    "href": "projects/data-visualization/index.html#interpretation-and-limitations",
+    "title": "A first look at ozone and temperature",
+    "section": "",
+    "text": "This is a small, single-location sample from 1973, spanning only May through September. Ozone values are missing on many days, and other factors such as solar radiation and wind also vary. This plot does not establish that temperature alone explains ozone changes or support a current air-quality conclusion.\n\nExploratory layout prototype only. No client engagement or business impact is represented."
+  },
+  {
+    "objectID": "projects/network-analysis/index.html",
+    "href": "projects/network-analysis/index.html",
+    "title": "Social network analysis",
+    "section": "",
+    "text": "PROJECT 03 / NETWORK ANALYSIS\n\n\n\n\nProject stub. This page will become a public-data or synthetic example; it does not describe client work.\n\n\n\nWhat can a network’s structure reveal about groups, reach, brokerage, or resilience, and which claims are supported by the data?\n\n\n\n\nDefine the nodes, ties, direction, weighting, and observation window.\nShow a readable network visualization and a small set of justified measures.\nExplain sensitivity to missing ties, sampling, and network boundaries.\nSeparate descriptive structure from causal or individual-level conclusions."
+  },
+  {
+    "objectID": "projects/network-analysis/index.html#planned-question",
+    "href": "projects/network-analysis/index.html#planned-question",
+    "title": "Social network analysis",
+    "section": "",
+    "text": "What can a network’s structure reveal about groups, reach, brokerage, or resilience, and which claims are supported by the data?"
+  },
+  {
+    "objectID": "projects/network-analysis/index.html#planned-contents",
+    "href": "projects/network-analysis/index.html#planned-contents",
+    "title": "Social network analysis",
+    "section": "",
+    "text": "Define the nodes, ties, direction, weighting, and observation window.\nShow a readable network visualization and a small set of justified measures.\nExplain sensitivity to missing ties, sampling, and network boundaries.\nSeparate descriptive structure from causal or individual-level conclusions."
+  }
+]

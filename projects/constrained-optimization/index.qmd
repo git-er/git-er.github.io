@@ -1,0 +1,24 @@
+---
+pagetitle: "Constrained optimization | RobW"
+---
+
+::: {.page-copy}
+
+<p class="eyebrow">PROJECT 04 / OPTIMIZATION</p>
+
+# Constrained optimization
+
+<div class="prototype-callout">Project stub. This page will become a public data or synthetic example.</div>
+
+## Planned question
+
+How does an optimal allocation change when objectives, capacity limits, and business constraints change?
+
+## Planned contents
+
+- Define decision variables, objective, units, and constraints.
+- Compare a baseline with a feasible optimized allocation.
+- Check feasibility, sensitivity, and tradeoffs rather than presenting one solution as universally best.
+- Explain assumptions and what operational validation would still be needed.
+
+:::
