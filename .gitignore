@@ -2,6 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+PROJECT_SUMMARY.md
+README.md
 /.quarto/
 
 **/*.quarto_ipynb
