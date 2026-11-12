@@ -18,4 +18,8 @@ Describe the analytics problems, teams, and decisions you have experience leadin
 
 Add a short description of your approach to building analytics capabilities, partnering with stakeholders, and communicating evidence.
 
+## Website analytics
+
+This site uses GoatCounter to measure page views and referring sites. GoatCounter says it does not use cookies or persistent visitor identifiers. The service receives visitors’ IP addresses as part of web requests to provide these statistics, but I do not retain raw IP logs. See [GoatCounter’s privacy information](https://www.goatcounter.com/privacy).
+
 :::
